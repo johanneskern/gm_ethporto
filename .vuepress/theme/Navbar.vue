@@ -51,8 +51,8 @@ export default {
       },
       {
         items: [],
-        link: "https://ethprague.com/",
-        text: "ETHPrague",
+        link: "https://ethporto.org/",
+        text: "ETHPorto",
         type: "link",
       }
       ],
