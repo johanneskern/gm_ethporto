@@ -47,19 +47,19 @@ export default {
 }
 
 .primary-btn {
-  background: rgba(0, 255, 224, 0.35);
+  background: rgba(246,236,16, 0.35);
   padding: 15px 24px;
   cursor: pointer;
   line-height: 18px;
   border-radius: 2px;
-  color: #69E2D5;
+  color: #F6EC10;
   font-family: 'Oxygen Mono', monospace;
   text-decoration: none !important;
   white-space: nowrap;
 }
 
 .primary-btn:hover {
-  background: rgba(0, 255, 224, 0.6);
+  background: rgba(246,236,16, 0.6);
 }
 
 </style>
