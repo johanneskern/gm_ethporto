@@ -1,20 +1,32 @@
 <template>
   <div class="hero-main">
     <div class="hero-main_headline-date">
-      3. June - 12. June 2022
+      13. March - 19. March 2023
     </div>
-      <div class="hero-main_headline">
-        GM PRAGUE 2022
+    <div class="hero-main_headline">
+        PORTO.GM.EVENTS
     </div>
-    <Button buttonText="See Events" to="/events/" />
+    <div class="hero-main_headline-date">
+        Bringing the first ETH event to the beautiful city of Porto.
+    </div>
+    <div class="hero-main_headline-date">
+      This website allows anyone to add and update their side event.
+    </div>
+    <Button class="hero-main_button" buttonText="Submit Event" :to="this.config.themeConfig.nav[2].link" />
   </div>
 </template>
 
 <script>
 import Button from '../Button.vue'
+import themeConfig from "../../config";
 
 export default {
   components: { Button },
+    data () {
+    return {
+      config: themeConfig
+    }
+  }
 }
 </script>
 
@@ -27,25 +39,23 @@ export default {
   flex-direction column
   align-items center
   justify-content center
-  padding 255px 0 0 0
+  padding 50px 0 0 0
   width 100%
 
   &_headline-date
-    font-size 22px
+    font-size clamp(1rem, calc(-0.875rem + 8.333vw), 2rem)
     line-height 28px
-    margin-bottom 1rem
+    margin-bottom 2rem
 
   &_headline
-    font-size clamp(3rem, calc(-0.875rem + 8.333vw), 10.5rem)
+    font-size clamp(3rem, calc(-0.875rem + 8.333vw), 8.5rem)
     text-align center
     max-width 55rem
     margin-bottom 2rem
+    display flex
+    justify-content center
+
+  &_button
+    padding-top 3rem
 
 </style>
-
-
-
-
-
-
-
