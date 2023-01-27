@@ -1,21 +1,21 @@
 <template>
   <div class="banner-main">
-    <img class="banner-main_img" src="./../../public/eth-porto-banner.jpg" alt="">
+    <img class="banner-main_img" src="./../../public/eth-porto-banner.jpeg" alt="">
   </div>
 </template>
 
 <script>
-import Button from '../Button.vue'
+import Button from "../Button.vue";
 import themeConfig from "../../config";
 
 export default {
   components: { Button },
-    data () {
+  data() {
     return {
-      config: themeConfig
-    }
-  }
-}
+      config: themeConfig,
+    };
+  },
+};
 </script>
 
 <style lang="stylus">
