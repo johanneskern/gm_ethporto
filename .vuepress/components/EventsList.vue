@@ -64,8 +64,8 @@ export default {
   name: "EventsListHome",
   components: { DateTime },
   data: () => ({
-    firstDay: new Date('2022-06-03'),
-    duration: 12,
+    firstDay: new Date('2023-03-13'),
+    duration: 8,
     descending: false,
     categories: [],
     events: [],

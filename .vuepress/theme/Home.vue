@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <Banner />
     <Hero />
     <Venues />
     <Events />
@@ -13,9 +14,10 @@ import Hero from '../components/Home/Hero.vue'
 import Events from '../components/Home/Events.vue'
 import Footer from '../components/Footer.vue'
 import Venues from '../components/Home/Venues.vue'
+import Banner from '../components/Home/Banner.vue'
 
 export default {
-  components: { NavLink, Button, Hero, Footer, Venues, Events }
+  components: { NavLink, Button, Hero, Footer, Venues, Events, Banner }
 }
 </script>
 

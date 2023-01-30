@@ -11,7 +11,7 @@
       title="Calendar"
     /> -->
     <div class="hero calendar_hero">
-      June 2022
+      March 2023
     </div>
 
     <table>
@@ -58,27 +58,24 @@ const debounce = require('debounce')
 export default {
   data: () => ({
     // First calendar day of the event (October 24)
-    firstDay: 3,
-    firstMonth: 5,
+    firstDay: 13,
+    firstMonth: 2,
     daysInFirstMonth: 31,
     // Hours without the leading zero nor trailing minutes
     firstHour: 9,
     lastHour: 24,
     dayNames: [
-      'Friday',
-      'Saturday',
-      'Sunday',
-      'Monday',
-      'Tuesday',
-      'Wednesday',
-      'Thursday',
-      'Friday',
-      'Saturday',
-      'Sunday'
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday",
     ],
     days: [],
     events: [],
-    lockHeaders: false
+    lockHeaders: false,
   }),
 
   computed: {
@@ -379,9 +376,9 @@ table
               transform rotate(180deg)
 
 .calendar_hero
-  font-size 2rem
+  font-size 3rem
   padding 3rem
-  min-height 15rem
+  min-height 4rem
   align-items flex-start
   font-family $primaryFontFamily
 </style>

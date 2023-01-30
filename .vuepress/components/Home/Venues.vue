@@ -1,4 +1,5 @@
 <template>
+  <!--
   <div class="venues">
     <div class="venues_info">
       <div class="venues_info_tag">
@@ -11,7 +12,7 @@
         The unique crypto-only hacker base which is facilitating a discussion platform for topics related to tech, art and science.
       </div>
 
-      <!-- <div class="venues_info_buttons">
+       <div class="venues_info_buttons">
         <button class="primary-btn">
           <img src='./../../public/arrow.svg' alt="instagram" class="venues_info_button_arrow_prev"/>
           prev
@@ -21,13 +22,14 @@
           next
           <img src='./../../public/arrow.svg' alt="instagram" class="venues_info_button_arrow_next"/>
         </button>
-      </div> -->
+      </div>
     </div>
 
     <div class="venues_image-container">
       <img class="venues_image" src="./../../public/paralelni_polis.png" alt="prague congress center" />
     </div>
   </div>
+  -->
 </template>
 
 <script>

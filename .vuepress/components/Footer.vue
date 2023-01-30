@@ -8,7 +8,7 @@
 <!--        <a href="#" class="footer_left_socials_link">-->
 <!--          <img src='./../public/instagram.svg' alt="instagram" />-->
 <!--        </a>-->
-        <a href="https://twitter.com/ethprague" class="footer_left_socials_link">
+        <a href="https://twitter.com/eth_porto" class="footer_left_socials_link">
           <img src='./../public/twitter.svg' alt="twitter" />
         </a>
       </div>
@@ -20,7 +20,7 @@
         </span>
       </div>
       <div>
-        2022 PWN AG
+        2023 PWN AG
       </div>
     </div>
 
