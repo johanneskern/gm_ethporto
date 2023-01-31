@@ -1,15 +1,10 @@
 {
-  "name": "Prague Blockchain Week",
-  "short_name": "Prague Blockchain Week",
+  "name": "Porto Blockchain Week",
+  "short_name": "Porto Blockchain Week",
   "icons": [
     {
-      "src": "/logo-192x192.png",
+      "src": "logo_gm_events.svg",
       "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/logo-512x512.png",
-      "sizes": "512x512",
       "type": "image/png"
     }
   ],

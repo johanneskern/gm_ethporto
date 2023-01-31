@@ -8,7 +8,7 @@
 <!--        <a href="#" class="footer_left_socials_link">-->
 <!--          <img src='./../public/instagram.svg' alt="instagram" />-->
 <!--        </a>-->
-        <a href="https://twitter.com/eth_porto" class="footer_left_socials_link">
+        <a href="https://twitter.com/pwndao" class="footer_left_socials_link">
           <img src='./../public/twitter.svg' alt="twitter" />
         </a>
       </div>
@@ -20,7 +20,7 @@
         </span>
       </div>
       <div>
-        2023 PWN AG
+        2023 PWN FOUNDATION
       </div>
     </div>
 
@@ -40,17 +40,18 @@
 </template>
 
 <script>
-
 export default {
-  data () {
+  data() {
     return {
-      footer: [{
-        url: '/legal/privacy-policy/', 
-        text: 'Privacy policy'
-        }]
-      }
+      footer: [
+        {
+          url: "/legal/privacy-policy/",
+          text: "Privacy policy",
+        },
+      ],
+    };
   },
-}
+};
 </script>
 
 <style lang="stylus">
@@ -118,8 +119,3 @@ export default {
       margin: 0.3rem 1.3rem;
 
 </style>
-
-
-
-
-

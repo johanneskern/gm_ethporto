@@ -1,10 +1,10 @@
 <template>
   <div class="hero-main">
+    <div class="hero-main_headline">
+        GM PORTO 2023
+    </div>
     <div class="hero-main_headline-date">
       13. March - 19. March 2023
-    </div>
-    <div class="hero-main_headline">
-        PORTO.GM.EVENTS
     </div>
     <div class="hero-main_headline-date">
         Bringing the first ETH event to the beautiful city of Porto.
@@ -17,17 +17,17 @@
 </template>
 
 <script>
-import Button from '../Button.vue'
+import Button from "../Button.vue";
 import themeConfig from "../../config";
 
 export default {
   components: { Button },
-    data () {
+  data() {
     return {
-      config: themeConfig
-    }
-  }
-}
+      config: themeConfig,
+    };
+  },
+};
 </script>
 
 <style lang="stylus">
@@ -43,14 +43,13 @@ export default {
   width 100%
 
   &_headline-date
-    font-size clamp(1rem, calc(-0.875rem + 8.333vw), 2rem)
+    font-size clamp(1rem, calc(-0.875rem + 1.8vw), 8.5rem)
     line-height 28px
     margin-bottom 2rem
 
   &_headline
-    font-size clamp(3rem, calc(-0.875rem + 8.333vw), 8.5rem)
+    font-size clamp(1rem, calc(-0.875rem + 8.333vw), 8.5rem)
     text-align center
-    max-width 55rem
     margin-bottom 2rem
     display flex
     justify-content center

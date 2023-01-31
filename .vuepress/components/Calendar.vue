@@ -10,7 +10,7 @@
     <!-- <HeroInternalPage
       title="Calendar"
     /> -->
-    <div class="hero calendar_hero">
+    <div class="hero calendar_hero calendar">
       March 2023
     </div>
 
@@ -53,7 +53,7 @@
 </template>
 
 <script>
-const debounce = require('debounce')
+const debounce = require("debounce");
 
 export default {
   data: () => ({
@@ -79,68 +79,71 @@ export default {
   }),
 
   computed: {
-    debounceScroll () {
-      return debounce(scrollHeaders, 100)
+    debounceScroll() {
+      return debounce(scrollHeaders, 100);
     },
 
-    debounceResize () {
-      return debounce(this.setWrapperHeight, 100)
-    }
+    debounceResize() {
+      return debounce(this.setWrapperHeight, 100);
+    },
   },
 
   methods: {
-    checkEvents (day, hour) {
-      return this.events.map(event => {
+    checkEvents(day, hour) {
+      return this.events.map((event) => {
         var xxx = day;
         var month = this.firstMonth;
-        if(xxx > this.daysInFirstMonth){
-            xxx = xxx - this.daysInFirstMonth;
-            month++;
+        if (xxx > this.daysInFirstMonth) {
+          xxx = xxx - this.daysInFirstMonth;
+          month++;
         }
         if (event.day === xxx && event.month === month && event.hour === hour) {
-          return event
+          return event;
         }
-      })
+      });
     },
 
-    setDays () {
-      let dayNumber = this.firstDay
+    setDays() {
+      let dayNumber = this.firstDay;
 
-      this.dayNames.map(dayName => {
+      this.dayNames.map((dayName) => {
         this.days.push({
           number: dayNumber,
-          longName: dayName
-        })
+          longName: dayName,
+        });
 
-        if(dayNumber == this.daysInFirstMonth){
-            dayNumber = 0;
+        if (dayNumber == this.daysInFirstMonth) {
+          dayNumber = 0;
         }
 
-        dayNumber++
-      })
+        dayNumber++;
+      });
     },
 
-    getEvents () {
-      const pages = this.$site.pages
+    getEvents() {
+      const pages = this.$site.pages;
 
-      pages.map(event => {
-        let path = event.path
-        let fm = event.frontmatter
+      pages.map((event) => {
+        let path = event.path;
+        let fm = event.frontmatter;
 
-        if (fm.name && fm.time && fm.name !== 'Sample Template') {
-          let day = new Date(fm.date).getUTCDate()
-          let month = new Date(fm.date).getUTCMonth()
-          let hour = Number(fm.time.split(':')[0])
-          let duration = 1
-          let i = 0
+        if (fm.name && fm.time && fm.name !== "Sample Template") {
+          let day = new Date(fm.date).getUTCDate();
+          let month = new Date(fm.date).getUTCMonth();
+          let hour = Number(fm.time.split(":")[0]);
+          let duration = 1;
+          let i = 0;
 
           // When the event spans more than one day
           if (fm.endDate && fm.endDate !== fm.date) {
-            var oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
+            var oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
             let startDay = new Date(fm.date);
             let endDay = new Date(fm.endDate);
 
-            duration = Math.round(Math.abs((startDay.getTime() - endDay.getTime())/(oneDay))) + 1;
+            duration =
+              Math.round(
+                Math.abs((startDay.getTime() - endDay.getTime()) / oneDay)
+              ) + 1;
           }
 
           for (i; i < duration; i++) {
@@ -149,88 +152,93 @@ export default {
               featured: fm.featured,
               name: fm.name,
               time: fm.time,
-              day: day + i > this.daysInFirstMonth ? day + i - this.daysInFirstMonth : day + i,
+              day:
+                day + i > this.daysInFirstMonth
+                  ? day + i - this.daysInFirstMonth
+                  : day + i,
               month: day + i > this.daysInFirstMonth ? month + 1 : month,
-              hour
-            })
+              hour,
+            });
           }
         }
-      })
+      });
     },
 
     // The wrapper needs a fixed height to allow the headers to move
-    setWrapperHeight () {
-      let body = document.getElementsByTagName('body')[0]
-      let header = document.getElementsByTagName('header')[0]
-      let wrapper = this.$refs.wrapper
+    setWrapperHeight() {
+      let body = document.getElementsByTagName("body")[0];
+      let header = document.getElementsByTagName("header")[0];
+      let wrapper = this.$refs.wrapper;
 
-      if (!body || !header || !wrapper) return
+      if (!body || !header || !wrapper) return;
 
-      wrapper.style.height = `${window.innerHeight - header.offsetHeight}px`
-      wrapper.style.overflow = 'auto'
-      body.style.overflow = 'hidden'
+      wrapper.style.height = `${window.innerHeight - header.offsetHeight}px`;
+      wrapper.style.overflow = "auto";
+      body.style.overflow = "hidden";
     },
 
-    toggleHeadersLock () {
+    toggleHeadersLock() {
       if (!this.lockHeaders) {
-        this.$refs.wrapper.addEventListener('scroll', this.debounceScroll)
+        this.$refs.wrapper.addEventListener("scroll", this.debounceScroll);
       } else {
-        this.$refs.wrapper.removeEventListener('scroll', this.debounceScroll)
-        resetHeadersPosition()
+        this.$refs.wrapper.removeEventListener("scroll", this.debounceScroll);
+        resetHeadersPosition();
       }
 
-      this.lockHeaders = !this.lockHeaders
-    }
+      this.lockHeaders = !this.lockHeaders;
+    },
   },
 
-  mounted () {
-    this.setDays()
-    this.getEvents()
-    this.setWrapperHeight()
-    this.toggleHeadersLock()
-    window.addEventListener('resize', this.debounceResize)
+  mounted() {
+    this.setDays();
+    this.getEvents();
+    this.setWrapperHeight();
+    this.toggleHeadersLock();
+    window.addEventListener("resize", this.debounceResize);
   },
 
-  beforeDestroy () {
-    let body = document.getElementsByTagName('body')[0]
-    body.style.overflow = 'auto'
-    window.removeEventListener('resize', this.debounceResize)
-  }
-}
+  beforeDestroy() {
+    let body = document.getElementsByTagName("body")[0];
+    body.style.overflow = "auto";
+    window.removeEventListener("resize", this.debounceResize);
+  },
+};
 
-const scrollHeaders = function () {
-  let hero = this.querySelector('.hero')
-  let thead = this.querySelector('thead')
-  let hours = this.querySelectorAll('.hour')
+const scrollHeaders = function() {
+  let hero = this.querySelector(".hero");
+  let thead = this.querySelector("thead");
+  let hours = this.querySelectorAll(".hour");
 
-  if (!hero || !thead || !hours) return
+  if (!hero || !thead || !hours) return;
 
-  let heroHeight = hero.offsetHeight
- 
+  let heroHeight = hero.offsetHeight;
+
   if (this.scrollTop >= heroHeight) {
-    thead.style.transform = `translate(0, ${this.scrollTop - heroHeight + 5}px)`
+    thead.style.transform = `translate(0, ${this.scrollTop -
+      heroHeight +
+      5}px)`;
   } else {
-    thead.style.transform = `translate(0, 0)`
+    thead.style.transform = `translate(0, 0)`;
   }
 
   for (let hour of hours) {
-    hour.style.transform = `translate(${this.scrollLeft}px, 0)`
+    hour.style.transform = `translate(${this.scrollLeft}px, 0)`;
   }
-}
+};
 
-const resetHeadersPosition = function () {
-  let hero = document.querySelector('.hero')
-  let thead = document.querySelector('thead')
-  let hours = document.querySelectorAll('.hour')
+const resetHeadersPosition = function() {
+  let hero = document.querySelector(".hero");
+  let thead = document.querySelector("thead");
+  let hours = document.querySelectorAll(".hour");
 
-  if (!hero || !thead || !hours) return
+  if (!hero || !thead || !hours) return;
 
-  thead.style.transform = `translate(0, 0)`
+  thead.style.transform = `translate(0, 0)`;
 
   for (let hour of hours) {
-    hour.style.transform = `translate(0, 0)`
+    hour.style.transform = `translate(0, 0)`;
   }
-}
+};
 </script>
 
 <style scoped lang="stylus">
@@ -336,6 +344,8 @@ table
             content ' '
 
 @media(max-width: 64em)
+  .calendar
+    margin-top 100px
   .hero
     width 100%
     top $navbarHeight
@@ -377,7 +387,7 @@ table
 
 .calendar_hero
   font-size 3rem
-  padding 3rem
+  padding 0rem 0rem 6rem 3rem
   min-height 4rem
   align-items flex-start
   font-family $primaryFontFamily
