@@ -43,7 +43,7 @@ export default {
   width 100%
 
   &_headline-date
-    font-size clamp(1rem, calc(-0.875rem + 3vw), 8.5rem)
+    font-size clamp(1rem, calc(-0.875rem + 1.8vw), 8.5rem)
     line-height 28px
     margin-bottom 2rem
 
