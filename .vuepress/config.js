@@ -3,10 +3,10 @@ module.exports = {
   // base: '/PragueBlockchainWeek/',
   // Leave the base as '/' if serving the content from a custom domain
   base: "/",
-  title: "Prague GM Events",
+  title: "Porto GM Events",
   head: [
     ["link", { rel: "manifest", href: "/manifest.json" }],
-    ["link", { rel: "icon", href: "/logo-black.png" }],
+    ["link", { rel: "icon", href: "/logo_gm_events.svg" }],
     [
       "meta",
       {
@@ -30,11 +30,11 @@ module.exports = {
         link: "https://gmevents.typeform.com/porto",
       },
     ],
-    logo: "logo.png",
+    logo: "logo_gm_events.svg",
     search: false,
     // Assumes GitHub. Can also be a full GitLab url.
     // repo: 'JosefJ/PragueBlockchainWeek',
-    // Customising the header label
+    // Customising the header labels
     // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
     // repoLabel: 'Contribute!',
     // Optional options for generating "Edit this page" link
