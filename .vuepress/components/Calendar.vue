@@ -10,7 +10,7 @@
     <!-- <HeroInternalPage
       title="Calendar"
     /> -->
-    <div class="hero calendar_hero">
+    <div class="hero calendar_hero calendar">
       March 2023
     </div>
 
@@ -344,6 +344,8 @@ table
             content ' '
 
 @media(max-width: 64em)
+  .calendar
+    margin-top 100px
   .hero
     width 100%
     top $navbarHeight
