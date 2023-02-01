@@ -24,53 +24,68 @@
 </template>
 
 <script>
-import SidebarButton from './SidebarButton.vue'
-import AlgoliaSearchBox from '@AlgoliaSearchBox'
-import SearchBox from './SearchBox.vue'
-import NavLink from './NavLink.vue'
-import Button from '../components/Button.vue'
-import LaneAbove from '../components/LaneAbove.vue'
-import themeConfig from './../config.js'
+import SidebarButton from "./SidebarButton.vue";
+import AlgoliaSearchBox from "@AlgoliaSearchBox";
+import SearchBox from "./SearchBox.vue";
+import NavLink from "./NavLink.vue";
+import Button from "../components/Button.vue";
+import LaneAbove from "../components/LaneAbove.vue";
+import themeConfig from "./../config.js";
 
 export default {
-  components: { SidebarButton, NavLink, SearchBox, AlgoliaSearchBox, Button, LaneAbove },
-  data () {
+  components: {
+    SidebarButton,
+    NavLink,
+    SearchBox,
+    AlgoliaSearchBox,
+    Button,
+    LaneAbove,
+  },
+  data() {
     return {
       links: [
-      {
-        items: [],
-        link: "/events/",
-        text: "Events",
-        type: "link",
-      },
-      {
-        items: [],
-        link: "/calendar/",
-        text: "Calendar",
-        type: "link",
-      },
-      {
-        items: [],
-        link: "https://ethporto.org/",
-        text: "ETHPorto",
-        type: "link",
-      }
+        {
+          items: [],
+          link: "/",
+          text: "Home",
+          type: "link",
+        },
+        {
+          items: [],
+          link: "/events/",
+          text: "Events",
+          type: "link",
+        },
+        {
+          items: [],
+          link: "/calendar/",
+          text: "Calendar",
+          type: "link",
+        },
+        {
+          items: [],
+          link: "https://ethporto.org/",
+          text: "ETHPorto",
+          type: "link",
+        },
       ],
-      config: themeConfig
-    }
+      config: themeConfig,
+    };
   },
   computed: {
-    algolia () {
-      return this.$themeLocaleConfig.algolia || this.$site.themeConfig.algolia || {}
+    algolia() {
+      return (
+        this.$themeLocaleConfig.algolia || this.$site.themeConfig.algolia || {}
+      );
     },
-    isAlgoliaSearch () {
-      return this.algolia && this.algolia.apiKey && this.algolia.indexName
+    isAlgoliaSearch() {
+      return this.algolia && this.algolia.apiKey && this.algolia.indexName;
     },
-    logo () {
-      return require('./../public/logo_gm_events.svg')
-    }
-  }
-}
+    logo() {
+      return require("./../public/logo_gm_events.svg");
+    },
+  },
+};
 </script>
 
 <style lang="stylus">
