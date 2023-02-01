@@ -45,12 +45,14 @@ export default {
   &_headline-date
     font-size clamp(1rem, calc(-0.875rem + 1.8vw), 8.5rem)
     line-height 28px
-    margin-bottom 2rem
+    margin-bottom 1rem
+    padding 0 20px 0 20px
+    text-align center
 
   &_headline
-    font-size clamp(1rem, calc(-0.875rem + 8.333vw), 8.5rem)
+    font-size clamp(2.5rem, calc(-0.875rem + 8.333vw), 8.5rem)
     text-align center
-    margin-bottom 2rem
+    margin-bottom 1.5rem
     display flex
     justify-content center
 

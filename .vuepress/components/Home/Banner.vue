@@ -25,7 +25,7 @@ export default {
   display flex
   align-items center
   justify-content center
-  padding-top 150px
+  padding-top 7rem
 
   &_img
     width 100%
