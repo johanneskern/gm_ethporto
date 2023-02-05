@@ -376,6 +376,7 @@ table
       tr
         td
           padding 7px
+          min-width 80px
           a
             font-size 12px
           &.hour
