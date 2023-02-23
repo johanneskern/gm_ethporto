@@ -50,9 +50,9 @@ name: Mobile and Web3 at ETH Porto
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
   - This is an exciting opportunity for developers and enthusiasts to explore the possibilities of blockchain technology on mobile devices.
-  -​The event will feature a workshop on building decentralized mobile apps using React Native, a talk on ethOS, 
+  - The event will feature a workshop on building decentralized mobile apps using React Native, a talk on ethOS, 
     and a round table discussion on the challenges and opportunities of bringing blockchain to mobile platforms.
-​ - Participants will have the chance to learn from experts in the field, exchange ideas with their peers, 
+  - Participants will have the chance to learn from experts in the field, exchange ideas with their peers, 
     and gain hands-on experience with cutting-edge tools and technologies. Whether you're a seasoned developer 
     or just curious about the potential of Web3, this event is not to be missed.
 
@@ -75,7 +75,7 @@ tickets: https://lu.ma/g81uzndz
 
 # If the entrance is free, set zero (0) as the price, or leave it empty.
 # _Don't_ write the currency symbol (Euro symbol will be used).
-price: TBA
+price: 0
 
 # The name of the venue where the event will be held. Can be left empty.
 venue: TBA
