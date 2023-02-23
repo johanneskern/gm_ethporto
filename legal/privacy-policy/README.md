@@ -12,7 +12,8 @@ use our Service, the porto.gm.events website.
 
 ## Information Collection and Use
 
-We don’t store your data, period.
+We are using Plausible Analytics for collecting the number of visitors on porto.gm.events. Nothing else.
+Plausible doesn’t use cookies and doesn’t track nor collect any personal data.
 
 ## Cookies
 
