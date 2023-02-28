@@ -33,8 +33,7 @@ title: Match Making
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
 # Linebreaks are ignored, but they _must_ start with two spaces.
-description: Networking at events is heavy but also very unorganized. 
-We plan to do side events for networking that are optimized and can activate an effective community around the event.
+description: Networking at events is heavy but also very unorganized. We plan to do side events for networking that are optimized and can activate an effective community around the event.
 
 
 #####################
@@ -50,9 +49,9 @@ name: Match Making
 # Two spaces before the hyphen, four spaces before the text. _No_ tabs allowed.
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
-  - Networking at events is heavy but also very unorganized. We plan to do a side events for networking that are optimized and can activate an effective community around the event. Pre-event match making: People will be free to register and meet online during a speed networking using team dynamics app. This will allow them to meet people randomly and view their profiles beforehand to prioritize who they wish to presentially meet during the event and book times.
-  - Event match making booth/room: Our team will be present in the event to facilitate networking areas and can also run a speed dating style musical chairs for people to meet and engage. Booth can stay active throughout the event and we can run one match making time during off times that allows people to engage and have fun. 
-  - Post event activity: Since we are from Aveiro, a city 40 mins away from Porto. We can take few interested people for a short lunch with a sight-seeing opportunity to the beautiful Venice of Portugal. 
+  - Networking at events is heavy but also very unorganized. We plan to do a side events for networking that are optimized and can activate an effective community around the event. Pre-event match making - People will be free to register and meet online during a speed networking using team dynamics app. This will allow them to meet people randomly and view their profiles beforehand to prioritize who they wish to presentially meet during the event and book times.
+  - Event match making booth/room - Our team will be present in the event to facilitate networking areas and can also run a speed dating style musical chairs for people to meet and engage. Booth can stay active throughout the event and we can run one match making time during off times that allows people to engage and have fun. 
+  - Post event activity - Since we are from Aveiro, a city 40 mins away from Porto. We can take few interested people for a short lunch with a sight-seeing opportunity to the beautiful Venice of Portugal. 
   - This will be a subscription and interest based thing with a shared fee on the lunch levied on the participants. We will help with tickets and food venue selection.
 
 # The date should be in the format year-month-day (ISO 8601).
