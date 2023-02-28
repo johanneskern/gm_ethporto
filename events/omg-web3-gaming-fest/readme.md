@@ -33,9 +33,7 @@ title: OMG! Web3 Gaming Fest
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
 # Linebreaks are ignored, but they _must_ start with two spaces.
-description: The first web3 gaming fest expected bring a room filled with passionate gam3rs, 
-industry experts, and world-class esports players, all coming together to celebrate and take part in the future of gaming! 
-It will have 3 main parts: a Conference, an Esports Triathlon and a Gaming Party.
+description: The first web3 gaming fest expected bring a room filled with passionate gam3rs, industry experts, and world-class esports players, all coming together to celebrate and take part in the future of gaming! It will have 3 main parts - a Conference, an Esports Triathlon and a Gaming Party.
 
 
 #####################
@@ -51,8 +49,7 @@ name: OMG! Web3 Gaming Fest
 # Two spaces before the hyphen, four spaces before the text. _No_ tabs allowed.
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
-  - The first web3 gaming fest expected bring a room filled with passionate gam3rs, 
-industry experts, and world-class esports players
+  - The first web3 gaming fest expected bring a room filled with passionate gam3rs, industry experts, and world-class esports players.
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
