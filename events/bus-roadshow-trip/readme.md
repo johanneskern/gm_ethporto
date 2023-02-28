@@ -49,6 +49,7 @@ name: Bus Roadshow Trip to ETH Porto 2023
 # Two spaces before the hyphen, four spaces before the text. _No_ tabs allowed.
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
+  - What can you expect?
   - 🚀 Get the best ride to ETH Porto 
   - 😎 Having fun & connecting like-minded builders 
   - 🥪 Light healthy snacks & drinks 
@@ -81,7 +82,7 @@ venue: Lisbon
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: Skalitzer Strasse 85-86, 10997 Berlin, Germany
-address: TBA
+address: 
 
 # The category of the event. Valid options:
 # - conference
