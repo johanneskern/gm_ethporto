@@ -49,25 +49,16 @@ name: Road to ETHPorto
 # Two spaces before the hyphen, four spaces before the text. _No_ tabs allowed.
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
+  - TOPICS
   - ETHPorto’s Expectations - 09/03 - 17:00
-  - Topics :
-    - Presentation ETHPorto Agenda
-    - Presentation ETHPorto Side Events at DeHouse
-      - 15 March
-        - Open day Cowork
-      - 16 March
-        - DeSci Breakfast
-        - ReFi @ETHPorto
-        - Polygon - shorturl.at/eKV03
-      - 17 March
-        - Chainlink
-
-   - Discussion Panel: ETHPorto's Expectations
-   - Speakers:
-      - Mario Ribeiro Alves (LayerX)
-      - Sara Amaral (EthPorto)
-      - Nuno Gonçalves (Pizza wallet / Polygon)
-      - After the session join us for some drinks and network!
+  - Presentation ETHPorto Agenda
+  - Presentation ETHPorto Side Events at DeHouse
+  - 15 March - Open day Cowork
+  - 16 March - DeSci Breakfast, ReFi @ETHPorto, Polygon - shorturl.at/eKV03
+  - 17 March - Chainlink
+  - Discussion Panel about ETHPorto's Expectations
+  - After the session join us for some drinks and network!
+  - Speakers include Mario Ribeiro Alves (LayerX), Sara Amaral (EthPorto) and Nuno Gonçalves (Pizza wallet / Polygon)
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
@@ -117,9 +108,6 @@ category: event
 # Two spaces before the hyphen, four spaces before the text. _No_ tabs allowed.
 # Add or remove speakers as needed, but remember the hyphen before each entry.
 speakers:
-- Mario Ribeiro Alves (LayerX)
-- Sara Amaral (EthPorto)
-- Nuno Gonçalves (Pizza wallet / Polygon)
 
 ### DON'T MAKE CHANGES BELOW THIS LINE! ###
 ---
