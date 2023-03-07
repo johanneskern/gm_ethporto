@@ -51,10 +51,9 @@ name: Proof of Wine by ETHPorto and Sogrape
 synopsis:
   - Thanks to Sogrape, one of the largest and oldest wine makers in Portugal, we've got you covered. 💪
   - Event Details
-    You can expect to visit a Port Wine Cellar, where you can learn about the history of the region's wine production and the unique characteristics that make Port Wine so special. The tour may include tastings of different varieties of Port Wine, as well as opportunities to explore the wine-making process. 🍷
-    Overall, you can look forward to a fun and educational experience that highlights the unique flavors, aromas, and traditions of Porto's celebrated wine culture. 💙
-
-    Note: There is a maximum capacity of 25 people for this event. If we exceed this number, we will do a raffle to select the 25 attendees. Best of luck! 🍀
+  - You can expect to visit a Port Wine Cellar, where you can learn about the history of the region's wine production and the unique characteristics that make Port Wine so special. The tour may include tastings of different varieties of Port Wine, as well as opportunities to explore the wine-making process. 🍷
+    - Overall, you can look forward to a fun and educational experience that highlights the unique flavors, aromas, and traditions of Porto's celebrated wine culture. 💙
+    - Note there is a maximum capacity of 25 people for this event. If we exceed this number, we will do a raffle to select the 25 attendees. Best of luck! 🍀
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
