@@ -58,13 +58,17 @@ const debounce = require("debounce");
 export default {
   data: () => ({
     // First calendar day of the event (October 24)
-    firstDay: 13,
+    firstDay: 9,
     firstMonth: 2,
     daysInFirstMonth: 31,
     // Hours without the leading zero nor trailing minutes
     firstHour: 9,
     lastHour: 24,
     dayNames: [
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday",
       "Monday",
       "Tuesday",
       "Wednesday",
