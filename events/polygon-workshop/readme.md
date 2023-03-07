@@ -28,7 +28,7 @@
 ###########
 # The title of the page, displayed by the browser on the title of the window.
 # Ideally this is the same as the name of the event.
-title: Polygon Workshop: Solidity, zkEVM and Polygon ID
+title: Polygon Workshop - Solidity, zkEVM and Polygon ID
 
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
@@ -41,7 +41,7 @@ description: Join us for a Polygon Dev Workshop during ETH Porto at DeHouse
 #####################
 # The name of the event you're creating.
 # Ideally this is the same as the title.
-name: Polygon Workshop: Solidity, zkEVM and Polygon ID
+name: Polygon Workshop - Solidity, zkEVM and Polygon ID
 
 # There _needs_ to be one hyphen before each paragraph.
 # Linebreaks are ignored, but they _must_ start with two spaces.
@@ -50,12 +50,11 @@ name: Polygon Workshop: Solidity, zkEVM and Polygon ID
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
   - Join us for a Polygon Dev Workshop during ETH Porto at DeHouse 
-    - 📣 #1 Intro to Ethereum and Solidity 
-    - 📣 #2 Deploying a dApp on Polygon zkEVM 
-    - 📣 #3 Using Polygon ID to issue claims that update NFTs metadata 
-    
-    - 📍16.3.2023 15:00-19:00 / DeHouse
-    - ☕️ 🍪 🍞 included
+  - 📣 #1 Intro to Ethereum and Solidity 
+  - 📣 #2 Deploying a dApp on Polygon zkEVM 
+  - 📣 #3 Using Polygon ID to issue claims that update NFTs metadata 
+  - 📍16.3.2023 15:00-19:00 / DeHouse
+  - ☕️ 🍪 🍞 included
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
