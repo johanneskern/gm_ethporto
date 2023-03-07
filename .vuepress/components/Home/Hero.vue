@@ -4,7 +4,7 @@
         GM PORTO 2023
     </div>
     <div class="hero-main_headline-date">
-      12. March - 19. March 2023
+      9. March - 19. March 2023
     </div>
     <div class="hero-main_headline-date">
         Bringing the first ETH event to the beautiful city of Porto.
