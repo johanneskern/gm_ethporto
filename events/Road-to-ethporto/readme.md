@@ -49,16 +49,10 @@ name: Road to ETHPorto
 # Two spaces before the hyphen, four spaces before the text. _No_ tabs allowed.
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
-  - TOPICS
-  - ETHPorto’s Expectations - 09/03 - 17:00
-  - Presentation ETHPorto Agenda
-  - Presentation ETHPorto Side Events at DeHouse
-  - 15 March - Open day Cowork
-  - 16 March - DeSci Breakfast, ReFi @ETHPorto, Polygon - shorturl.at/eKV03
-  - 17 March - Chainlink
-  - Discussion Panel about ETHPorto's Expectations
+  - Join us at a presenation of EthPorto and it's side events, followed by a panel discussion.
+  - We will talk about the ETHPorto Agenda and about side events that are happening at DeHouse. On March 15th there will be an open day for coworking, on March 16th you can expect DeSci Breakfast, Refi @ETHPorto and a Polygon event (shorturl.at/eKV03) and on March 17th there will be event from Chainlink.
+  - The panel speakers are Mario Ribeiro Alves (LayerX), Sara Amaral (ETHPorto) and Nuno Gonçalves (Pizza Wallet / Polygon).
   - After the session join us for some drinks and network!
-  - Speakers include Mario Ribeiro Alves (LayerX), Sara Amaral (EthPorto) and Nuno Gonçalves (Pizza wallet / Polygon)
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28

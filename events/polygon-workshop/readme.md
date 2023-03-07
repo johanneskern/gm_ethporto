@@ -50,9 +50,9 @@ name: Polygon Workshop - Solidity, zkEVM and Polygon ID
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
   - Join us for a Polygon Dev Workshop during ETH Porto at DeHouse 
-  - 📣 #1 Intro to Ethereum and Solidity 
-  - 📣 #2 Deploying a dApp on Polygon zkEVM 
-  - 📣 #3 Using Polygon ID to issue claims that update NFTs metadata 
+  - 📣 1) Intro to Ethereum and Solidity 
+  - 📣 2) Deploying a dApp on Polygon zkEVM 
+  - 📣 3) Using Polygon ID to issue claims that update NFTs metadata 
   - 📍16.3.2023 15:00-19:00 / DeHouse
   - ☕️ 🍪 🍞 included
 
