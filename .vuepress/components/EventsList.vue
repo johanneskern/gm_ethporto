@@ -65,7 +65,7 @@ export default {
   components: { DateTime },
   data: () => ({
     firstDay: new Date("2023-03-09"),
-    duration: 8,
+    duration: 10,
     descending: false,
     categories: [],
     events: [],
