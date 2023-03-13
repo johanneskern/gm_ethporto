@@ -33,7 +33,7 @@ title: Tacos with Nerif & frens
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
 # Linebreaks are ignored, but they _must_ start with two spaces.
-description: Join us for an evening of networking, fun, tacos and margaritas, organized by Nerif, AllBridge, Hacken, and Web3GoLisboa.
+description: Join us for an evening of networking, fun, tacos and margaritas, organized by Nerif, AllBridge, Hacken, and Web3GoLisboa. You will receive the location of this secret event after having minted the NFT ticket.
 
 #####################
 ### EVENT DETAILS ###
@@ -65,7 +65,7 @@ time: '19:00'
 endTime: '23:00'
 
 # The URL where to acquire the tickets. Can be left empty.
-tickets: https://tacos.nerif.network/tickets
+tickets: https://tacos.nerif.network/
 
 # If the entrance is free, set zero (0) as the price, or leave it empty.
 # _Don't_ write the currency symbol (Euro symbol will be used).
