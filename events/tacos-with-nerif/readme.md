@@ -72,11 +72,11 @@ tickets: https://tacos.nerif.network/
 price: 0
 
 # The name of the venue where the event will be held. Can be left empty.
-venue: (hidden)
+venue: Callejero
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: Skalitzer Strasse 85-86, 10997 Berlin, Germany
-address: (hidden)
+address: R. Das Oliveiras 118, 4050-448 Porto
 
 # The category of the event. Valid options:
 # - conference
